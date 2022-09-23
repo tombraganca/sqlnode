@@ -1,7 +1,7 @@
 const User = require('../model/User');
 
 module.exports = {
-    async store(req, res) {
+    async createUser(req, res) {
         console.log('teste')
         const { name, email } = req.body;
         try {
